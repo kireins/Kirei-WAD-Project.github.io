@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #4A4F87;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    position: fixed;
+    padding: 20px 12%;
+    z-index: 100;
+}
+.logo{
+    color: #D6E6FD ;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease; 
+    font-family: 'Pacifico', cursive;
+}   
+.logo:hover{
+    color: #FEC2E6;
+    text-shadow: 0 0 25px #FEC2E6, 0 0 50px #FEC2E6;
+    transform: scale(1.1);
+}
+span{
+    color: #D58A9F ;
+}
+nav a{
+    font-size: 18px;
+    color: #D6E6FD;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+nav a:hover,
+nav a.active{
+    color: #FEC2E6;
+    border-bottom: 3px solid #FEC2E6;
+}
+.contact{
+    background: #4A4F87;
+    color: #D6E6FD;
+    padding: 10px 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.contact:hover{
+    background: #FEC2E6;
+    color: #4A4F87;
+    box-shadow:#4A4F87 ;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #D6E6FD;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+    
+}
+.hero-content{
+    max-width: 800px;
+}
+.hero-content h2{
+    font-size: 40px;
+    line-height: 1.2;
+    
+}
+
+.hero-content p{
+    font-size: 18px;
+    margin: 35px 0;
+}
+.btn{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    background: #4A4F87;
+    color: #D6E6FD;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background: #FEC2E6;
+    color: #4A4F87;
+    box-shadow: 0 0 25px #FEC2E6, 0 0 50px #FEC2E6;
+}
+.btn-2{
+    background: #FEC2E6;
+    color: #4A4F87;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background: #4A4F87;
+    color: #D6E6FD;
+    box-shadow: 0 0 25px #4A4F87, 0 0 50px #4A4F87;
+}
+.hero-image img{
+    width: 350px;
+    border-radius: 8%;
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: #FEC2E6;
+}
+::-webkit-scrollbar-track{
+    background: #D6E6FD;
+    width: 20px;
+}
+.about{
+    width: 100%;
+    background: #D6E6FD;
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    padding: 10% 10% 10%;
+    justify-content: center;
+}
+.about-img img{
+    position: relative;
+    width: 350px;
+    box-shadow: 0 0 25px #FEC2E6, 0 0 50px #FEC2E6;
+    border-radius: 8%;
+}   
+.about-content h2{
+    text-align: left;
+    color: #4A4F87;
+    font-size: 42px;
+}
+.about-content h3{
+    text-align: left;
+    color: #4A4F87;
+    font-size: 62px;
+}
+.about-content p{
+    text-align: left;
+    color: #D6E6FD;
+    font-size: 18px;
+    margin: 2em 0;
+}
+.btn-3{
+    background: #FEC2E6;
+    color: #4A4F87;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition:  0.3s ease;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background: #FEC2E6;
+    color: #4A4F87;
+    box-shadow: 0 0 25px #FEC2E6, 0 0 50px #FEC2E6;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: #4A4F87;
+    padding: 10px 0;
+    align-items: center;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4A4F87;
+}
+.footer .social a{
+    font-size: 24px;
+    margin: 0 10px;
+    color: #D6E6FD;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #D58A9F;
+    border-radius: 10%;
+    box-shadow: inset 0 0 10px #FEC2E6;
+    transform: 0.3s ease;
+}
+.footer .social a:hover{
+    color: #FEC2E6;
+    box-shadow: 0 0 25px #FEC2E6, 0 0 50px #FEC2E6;
+    border: 2px solid #FEC2E6;
+}
