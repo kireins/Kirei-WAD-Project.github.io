@@ -64,7 +64,7 @@ nav a.active{
     color: #4A4F87;
     box-shadow:#4A4F87 ;
 }
-.hero{
+/* .hero{
     width: 100%;
     min-height: 100vh;
     background: #D6E6FD;
@@ -129,7 +129,7 @@ nav a.active{
 .hero-image img{
     width: 350px;
     border-radius: 8%;
-}
+} */ */
 ::-webkit-scrollbar{
     width: 4px;
 }
